@@ -2,6 +2,8 @@
   "name": "codesquatch/twig_extender",
   "description": "Extends Drupal 7 templating functionality to integrate into PatterLabs seamlessly.",
   "license": "MIT",
+  "version": "1.0.0",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "Patrick Sweeney",
