@@ -22,7 +22,7 @@ class TwigExtender extends Twig_Extension implements Twig_ExtensionInterface {
   public static function drupalAttributes(array $attributes) {
     foreach ($attributes as $attribute => &$data) {
       $data = implode(' ', (array) $data);
-      $data = $attribute . '="' . check_plain($data) . '"';
+      $data = $attribute . '="' . $data . '"';
     }
     return $attributes ? ' ' . implode(' ', $attributes) : '';
   }
